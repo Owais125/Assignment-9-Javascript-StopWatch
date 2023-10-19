@@ -34,7 +34,7 @@ function timer(){
 }
 function start(){
     var startbtn = document.getElementById("start")
-    interval=setInterval(timer,100)
+    interval=setInterval(timer,10)
     startbtn.disabled = true;
 }
 
